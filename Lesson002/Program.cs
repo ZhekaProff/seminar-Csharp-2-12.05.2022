@@ -8,15 +8,15 @@ if ( x > 0 && y > 0)
 {
     Console.WriteLine("точка находится в первой четверти");
 }
-if ( x > 0 && y < 0)
+else if ( x > 0 && y < 0)
 {
     Console.WriteLine("точка находится в четвертой четверти");
 }
-if ( x < 0 && y < 0)
+else if ( x < 0 && y < 0)
 {
     Console.WriteLine("точка находится в третьей четверти");
 }
-if ( x < 0 && y > 0)
+else if ( x < 0 && y > 0)
 {
     Console.WriteLine("точка находится во второй четверти");
 }
